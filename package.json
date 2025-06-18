@@ -12,6 +12,10 @@
   "author": "Luther Tchofo Safo <luther@tchofo-safo-portfolio.me>",
   "type": "module",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LutherTS/resolve-import-path.git"
+  },
   "dependencies": {
     "tsconfig-paths": "^4.2.0"
   }
