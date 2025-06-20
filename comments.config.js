@@ -1,4 +1,4 @@
-const config = {
+const data = {
   jsDoc: {
     resolveImportingPath: `* Resolves a JavaScript or TypeScript import path to a filesystem path (node_modules excluded), handling:
  * - Base url and aliases (via tsconfig.json \`baseUrl\` and \`paths\` compiler options).
@@ -9,6 +9,13 @@ const config = {
  * @param {string} cwd The project root, such as from \`context.cwd\`.
  * @returns The absolute resolved importing path or \`null\` if no path is found.`,
   },
+};
+
+const ignores = [];
+
+const config = {
+  data,
+  ignores,
 };
 
 export default config;
