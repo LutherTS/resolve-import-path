@@ -8,10 +8,10 @@ const data = {
     }),
     details: Object.freeze({
       baseUrlAliases:
-        "Base url and aliases (via tsconfig.json `baseUrl` and `paths` compiler options).", // $COMMENT#JSDOC#RETURNS#BASEURLALIASES
-      extensions: "Missing extensions (appends `.ts`, `.tsx`, etc.).", // $COMMENT#JSDOC#RETURNS#EXTENSIONS
+        "Base url and aliases (via tsconfig.json `baseUrl` and `paths` compiler options).", // $COMMENT#JSDOC#DETAILS#BASEURLALIASES
+      extensions: "Missing extensions (appends `.ts`, `.tsx`, etc.).", // $COMMENT#JSDOC#DETAILS#EXTENSIONS
       directories:
-        "Directory imports (e.g., `./components` → `./components/index.ts`).", // $COMMENT#JSDOC#RETURNS#DIRECTORIES
+        "Directory imports (e.g., `./components` → `./components/index.ts`).", // $COMMENT#JSDOC#DETAILS#DIRECTORIES
     }),
     params: Object.freeze({
       currentDir:
