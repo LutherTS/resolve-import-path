@@ -1,6 +1,6 @@
 {
   "name": "resolve-importing-path",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Resolves an import path to a filesystem path handling TypeScript, missing extensions and directory imports.",
   "keywords": [
     "resolve",
